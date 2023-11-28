@@ -1,9 +1,16 @@
 public class Person {
+
+    public int id;
     public String name;
-    public Person parent;
-    public Person(String name, Person parent) {
+
+    public Person() {
+
+    }
+
+    public Person(String name, int id) {
         this.name = name;
-        this.parent = parent;
+        this.id = id;
+
     }
 
 }
